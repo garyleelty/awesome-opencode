@@ -1,0 +1,10 @@
+name: agentledger
+repo: https://github.com/garyleelty/agentledger
+tagline: Local-first cost ledger for AI coding agents — tokens and dollars
+description: Reads the session logs your agents already write (~/.claude/projects, ~/.codex/sessions, ~/.gemini/tmp) and turns them into token and cost totals. Prices cache reads and cache writes at their own rates instead of lumping them into input, which most dashboards get wrong. Zero dependencies, Node 18+, no network calls, no account.
+tags:
+  - cost
+  - tokens
+  - observability
+  - cli
+  - local-first
