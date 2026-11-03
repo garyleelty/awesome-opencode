@@ -1,0 +1,11 @@
+name: agentledger
+repo: https://github.com/garyleelty/agentledger
+tagline: Local-first cost ledger for AI coding agents — tokens and dollars from logs already on disk
+description: A zero-dependency CLI that reads the local session logs of 13 coding agents — OpenCode, Claude Code, Codex, Gemini CLI, Qwen Code and more — and turns them into one token/cost ledger with per-project, per-branch and per-model breakdowns and separate cache read/write billing. No network calls, no API keys, no cloud; everything stays on your machine.
+homepage: https://garyleelty.github.io/agentledger/
+installation: brew install garyleelty/agentledger/agentledger
+tags:
+  - cost-tracking
+  - token-usage
+  - observability
+  - cli
